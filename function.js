@@ -34,7 +34,7 @@ function startLove(){
 
 
 function typeLoveMessage(){
-  let message = "I Knew You’d Say Yes…<br>Because You Are My Safest Place,<br>My Answered Prayer,<br>And My Forever. ❤️";
+  let message = "I Knew You’d Say Yes…<br>Because You Are My Safest Place,<br>My Answered Prayer,<br>And My Forever❤️";
   let i = 0;
   let speed = 50;
   let loveText = document.getElementById("loveMessage");
@@ -104,6 +104,7 @@ document.addEventListener('click', () => {
   audio.play();
 
 }, { once: true }); // sirf pehli click par chalega (browser autoplay policy)
+
 
 
 
