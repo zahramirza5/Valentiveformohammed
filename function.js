@@ -100,10 +100,11 @@ document.addEventListener('click', () => {
   const audio = document.getElementById('myAudio');
 
   // Audio start time ko 55 seconds set karo
-  audio.currentTime = 74; 
+  audio.currentTime = 73; 
   audio.play();
 
 }, { once: true }); // sirf pehli click par chalega (browser autoplay policy)
+
 
 
 
