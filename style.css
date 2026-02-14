@@ -8,6 +8,7 @@
 body{
   overflow:hidden;
   background:#ffeff5;
+  font-family: 'Poppins';
 }
 
 .screen{
@@ -19,6 +20,7 @@ body{
   justify-content:center;
   align-items:center;
   transition:opacity 0.8s ease;
+  font-family: 'Poppins';
 }
 
 .hidden{
@@ -69,6 +71,7 @@ button{
   font-size:16px;
   cursor:pointer;
   transition:0.3s;
+  font-family: 'Poppins';
 }
 
 button:hover{
@@ -109,6 +112,7 @@ button:hover{
   text-align:center;
   color:#c9184a;
   margin-bottom:20px;
+  font-family: 'Poppins';
 }
 
 
@@ -118,3 +122,4 @@ audio {
   border-radius: 5px;
   margin-top: 10px;
 }
+
