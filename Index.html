@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mohammed ❤️</title>
+<link rel="stylesheet" href="Style.css">
+<script src="Function.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<audio id="myAudio">
+  <source src="Chalo door kahi.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<!-- Screen 1 -->
+<div class="screen" id="screen1">
+  <div class="envelope" onclick="nextScreen('screen1','screen2')"></div>
+  <p style="margin-top:20px;color:#c9184a;font-size:18px;">
+    <center>Hey Mohammedaaaaaaa, <br> Click on this Envelope 💌</center>
+  </p>
+</div>
+
+<!-- Screen 2 -->
+<div class="screen hidden" id="screen2">
+  <h1>Will You Be My Valentine?</h1>
+  <div>
+    <button onclick="startLove()">Yes ❤️</button>
+    <button onclick="startLove()">Obviously Yes ❤️</button>
+  </div>
+</div>
+
+<!-- Screen 3 -->
+<div class="screen hidden" id="screen3">
+  <h1 id="processingText"></h1>
+</div>
+
+<!-- Screen 4 -->
+<div class="screen hidden" id="screen4">
+  <h1 id="loveMessage"></h1>
+  <button onclick="showFinal()">Continue 💕</button>
+</div>
+
+<!-- Screen 5 -->
+<div class="screen hidden" id="screen5">
+  <h1>Mohammed…<br>I Don’t Just Want You As My Valentine.<br>I Want You As My Always. ❤️</h1>
+  <button onclick="nextScreen('screen5','screen6')">
+    See Our Story 💕
+  </button>
+</div>
+
+<!-- Timeline Screen 1 -->
+<div class="screen hidden" id="screen6">
+  <h1>The Day Your Rishta Came For Me</h1>
+  <p>23 March 2024 – Saturday</p>
+
+  <img style="width:200px; height:200px;" src="Images/Send Rishta.jpeg" class="timeline-img">
+
+  <h4 class="caption">
+    The day my heart <br> quietly choose you.
+  </h4>
+
+  <button onclick="nextScreen('screen6','screen7')">Next 💖</button>
+</div>
+
+
+<!-- Timeline Screen 2 -->
+<div class="screen hidden" id="screen7">
+  <h1>Our Engagement Day</h1>
+  <p>19 April 2024 – Friday</p>
+
+  <img style="width:200px; height:200px;" src="Images/Engagement.jpeg" class="timeline-img">
+
+  <h4 class="caption">
+    The day I officially <br> became yours.
+  </h4>
+
+  <button onclick="nextScreen('screen7','screen8')">Next 💍</button>
+</div>
+
+
+<!-- Timeline Screen 3 -->
+<div class="screen hidden" id="screen8">
+  <h1>Our Nisbat Day</h1>
+  <p>24 July 2024 – Wednesday</p>
+
+  <img style="width:200px; height:200px;" src="Images/Nisbat.jpeg" class="timeline-img">
+
+  <h4 class="caption">
+    The moment our <br> forever became real.
+  </h4>
+
+<button onclick="nextScreen('screen8','screen9')">Next 💕</button>
+</div>
+
+<!-- Timeline Screen 4 -->
+<div class="screen hidden" id="screen9">
+  <h1>Our First Picture Together</h1>
+  <p>10 April 2024 – Wednesday</p>
+
+  <img style="width:200px; height:200px;" src="Images/First Picture Together.jpeg" class="timeline-img">
+
+  <h4 class="caption">
+    The smile that said <br> “I’m home.”
+  </h4>
+
+  <button onclick="nextScreen('screen9','screen10')">Next 💖</button>
+</div>
+
+
+<!-- Timeline Screen 5 -->
+<div class="screen hidden" id="screen10">
+  <h1>The Day I Became Your First Time Dulhan</h1>
+  <p>6 December 2025 – Saturday</p>
+
+  <img style="width:200px; height:200px;" src="Images/Duhan.jpg" class="timeline-img">
+
+  <h4 class="caption">
+    The night we talked <br> about our forever dreams.
+  </h4>
+
+  <button onclick="nextScreen('screen10','screen11')">Next 💍</button>
+</div>
+
+
+<!-- Timeline Screen 6 -->
+<div class="screen hidden" id="screen11">
+  <h1>The Day I Realized</h1>
+  <p>No Date Needed ❤️</p>
+
+  <img style="width:200px; height:200px;" src="Images/Realized.jpeg" class="timeline-img">
+
+  <h4 class="caption">
+    You are not just my love… <br> you are my destiny.
+  </h4>
+
+  <button onclick="showLetter()">Open Final Letter 💌</button>
+</div>
+
+
+<div class="screen hidden" id="finalLetter">
+  <h1 id="handwritten"></h1>
+</div>
+
+</body>
+</html>
